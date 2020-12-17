@@ -1,0 +1,227 @@
+/*Body Styled*/
+body{
+	background: #FFFFFF;
+	margin: 5px;
+	padding: 5px;
+}
+/*Header Styled*/
+header{           
+	background: #A4C400 url(homework-image.jpeg) no-repeat;
+	background-size: cover;
+	height: 250px;
+	width:100%;
+	padding: 5px;
+}
+
+
+/*TABLE STYLING WEEK 4 ASSIGNMENT*/
+
+/*Table in right class styled*/
+.right table{
+	line-height: 42px;
+	max-width: 85%;
+	margin: 0 auto;    /* Table centred using margin property*/
+	max-height: 80%;
+}
+
+
+
+
+/*The table headings should have a border, background color, and at least one other property.*/
+.right th{
+	color: #FFFFFF;
+	background: -webkit-linear-gradient(left, #33CCFF 0%, #66FF66 100%); /*Gradient background for table heading*/
+	background: -moz-linear-gradient(left, #33CCFF 0%, #66FF66 100%);
+	background: -o-linear-gradient(left, #33CCFF 0%, #66FF66 100%);
+	background: -ms-linear-gradient(left, #33CCFF 0%, #66FF66 100%);
+	width:1%;
+	padding: 2px;
+	font-style: oblique 0deg;
+	font-weight: bold;
+	border: 2px outset #012998;
+	border-bottom:6px outset #FF2D55;
+	-webkit-border-radius: 5px 5px 0px 0px; /* border radius for table heading*/
+	-moz-border-radius: 5px 5px 0px 0px;
+	-o-border-radius: 5px 5px 0px 0px;
+	-ms-border-radius: 5px 5px 0px 0px;
+}
+
+
+
+
+/*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+.right th:first-child{
+	text-align: left;
+}
+
+
+
+
+/*The table elements < td > should be styled using at least four properties*/
+.right td{
+	text-align: center;
+	background: #0247FE;
+	color: #FC7307;
+	text-shadow: 1px 1px #FC7307;
+	padding: 2px; 
+	margin: 5px;
+	padding-left: 12px;
+	border-radius: 2px;                /*Border Radius for coloumn elements set to 2px*/
+	font-family: Helvetica, Arial ,"Times New Roman";
+	font-size: 16px;
+}
+
+
+
+
+/*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+.right td:first-child{
+	text-align: left;
+	width: 10%;
+}
+
+
+
+
+/*Set the opacity of the table rows to a value between .6 and .8*/
+.right tr{
+	opacity: 0.8;
+}
+
+
+
+
+/*Table Heading must have a opacity 1*/
+.right tr:first-child{
+	opacity: 1;
+}
+
+
+
+
+/*Change the opacity of a row when it is hovered over*/
+.right tr:hover{
+	opacity: 1;
+	transition: ease-in 0.1s;
+}
+
+
+
+
+/*h1 Styled*/
+h1{
+	text-align: center;
+	color: #012998;
+	text-transform: uppercase;
+	font-size: 250%;
+	margin:25px auto;
+	font-family: Arial serif;
+}
+
+
+/*h2 Styled*/
+h2{
+	text-align: left;
+	text-transform: uppercase;
+	color: #091534;
+	font-size: 250%;
+	margin: 1%;
+	margin-left: 0%;
+	color: #012998;
+}
+
+
+/*Links Styled*/
+nav a{
+
+	display: inline-block;
+	width:15%;
+	margin: 2% 2%;
+	padding:1%;
+	border: 2px solid #FFFFFF;
+	color: #FF2D55;
+	background: #FFFFFF;
+	opacity: 0.4;
+	font-variant: small-caps;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	
+}
+
+/*On Hover action*/
+nav a:hover{
+	opacity: 1;
+	color:#1BA1E2;
+	transition: 0.4s ease-in 0.1s;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+}
+
+
+/*Active class styled*/
+.active{
+	opacity: 1;
+	color:#1BA1E2;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+}
+
+
+/* Paragraph Styled*/
+p{
+	font-size: 110%;
+}
+
+
+
+/*Left class styled*/
+.left{
+	display: block;
+	float: left;
+	max-width: 30%;
+	height: 100vh;
+	background: #0247FE;
+	margin-top: 0px;
+	border-left: 5px;
+}
+
+/*Images styled*/
+.left img{
+	display: block;
+	max-width: 50%;
+	max-height: 45%;
+	margin: 0 auto;
+	margin-top: 15%;
+	margin-bottom: 4%;
+	border: 5px solid #DBE5FF;
+}
+
+
+/*Right class styled*/
+.right{
+	float:left;
+	background: #FF9500;
+	background: #FFFFFF;
+	padding-left: 25px;
+	max-width: 59%;
+	max-height: 100vh; 
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+
+/*Paragraphs in right class styled*/
+.right p{
+	line-height: 20px;
+	max-width: 100%;
+	font-size: 16px;
+}
